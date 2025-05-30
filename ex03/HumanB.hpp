@@ -8,7 +8,7 @@ private:
 	std::string name;
 	Weapon* weapon;
 public:
-	HumanB(std::string name) : name(name), weapon(nullptr) {}
+	HumanB(std::string name);
 	void setWeapon(Weapon& w);
 	void attack();
 };
